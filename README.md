@@ -1,0 +1,3 @@
+Accessible restaurants encompass more than just establishments catering to disabled
+individuals; they are spaces welcoming people from diverse backgrounds. As a woman of color, I often struggle to find inclusive and safe dining options nearby. Hence, this project aims to address this gap by facilitating users in discovering restaurants within a 10-mile radius of their specified location.
+Utilizing the Yelp API, the attribute 'open_to_all' will be leveraged to identify inclusive eateries. The project will generate an HTML file presenting located restaurants in a user-friendly manner, prioritizing proximity for ease of reference. In terms of the user interface, I envision a simple and intuitive design that allows users to effortlessly browse through restaurant options.
