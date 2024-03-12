@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Find Restaurants</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Welcome to Restaurant Finder</h1>
+    <p>Discover nearby restaurants and restaurants that are open to all with ease!</p>
+
+    <img src="https://res.cloudinary.com/the-infatuation/image/upload/v1656116743/cms/beta/NateWatters_Seattle_LocalTide_Spread-3.jpg" alt="Image" width="500">
+
+    <div class="search-container">
+        <form action="/restaurants" method="post">
+            <input type="text" id="location" name="location" placeholder="Enter your location...">
+            <input type="number" id="radius" name="radius" placeholder="Radius in miles (optional)">
+            <input type="checkbox" id="open_to_all" name="open_to_all">
+            <label for="open_to_all">Show only Open To All restaurants</label><br><br>
+            <button type="submit">Explore Restaurants</button>
+        </form>
+    </div>
+
+    <div class="info">
+        <p>Information is from <a href="https://www.yelp.com/">Yelp</a></p>
+    </div>
+</body>
+</html>
